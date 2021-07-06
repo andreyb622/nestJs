@@ -5,7 +5,7 @@
     "promise-function-async": true,
     "await-promise": true,
     "curly": true,
-    "prefer-for-of": true,
+    "prefer-for-dcof": true,
     "forin": true,
     "no-console": [true, "log", "error"],
     "no-debugger": true,
@@ -27,12 +27,8 @@
     "arrow-return-shorthand": true,
     "class-name": true,
     "file-name-casing": [true, "kebab-case"],
-    "prefer-switch": [
-      true,
-      {
-        "min-cases": 3
-      }
-    ],
+    "interface-name": [true, "always-prefix"],
+    "prefer-switch": [true, { "min-cases": 3 }],
     "switch-final-break": true,
     "import-spacing": true,
     "max-line-length": [true, 120],

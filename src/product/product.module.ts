@@ -6,14 +6,14 @@ import { ProductModel } from "./product.model";
 @Module({
   controllers: [ProductController],
   imports: [
-    TypegooseModule.forFeature([
-      {
-        typegooseClass: ProductModel,
-        schemaOptions: {
-          collection: 'Product'
-        }
-      }
-    ])
+	TypegooseModule.forFeature([
+		{
+		typegooseClass: ProductModel,
+		schemaOptions: {
+			collection: 'Product'
+		}
+		}
+	])
   ]
 })
 export class ProductModule {}
