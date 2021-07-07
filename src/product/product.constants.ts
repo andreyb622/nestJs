@@ -1,0 +1,1 @@
+export const PRODUCT_NOT_FOUND_ERROR = 'продукт с таким id не найден';
