@@ -54,7 +54,7 @@ export class TopPageModel extends TimeStamps{
   hh?: HhData;
 
   @prop({ type: () => [TopPageAdvantage] })
-  advantages: TopPageAdvantage;
+  advantages: TopPageAdvantage[];
 
   @prop()
   seoText: string;
