@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    step:
+    steps:
       - uses: action/checkout@master
       - name: https://github.com/andreyb622/nestJs
         uses: elgohr/Publish-Docker-Github-Action@master
