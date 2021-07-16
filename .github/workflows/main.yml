@@ -12,8 +12,8 @@ jobs:
       - name: https://github.com/andreyb622/nestJs
         uses: elgohr/Publish-Docker-Github-Action@master
           with:
-            registry: docker.pkg.github.com/andreyb622/nestJs/top-api-demo
-            name: myDocker/repository
+            registry: docker.pkg.github.com
+            name: docker.pkg.github.com/andreyb622/nestJs/top-api-demo
             username: ${{ secrets.DOCKER_USERNAME }}
             password: ${{ secrets.DOCKER_PASSWORD }}
             tags: "develop1"
