@@ -11,9 +11,9 @@ jobs:
       - uses: action/checkout@master
       - name: https://github.com/andreyb622/nestJs
         uses: elgohr/Publish-Docker-Github-Action@master
-          with:
-            registry: docker.pkg.github.com
-            name: docker.pkg.github.com/andreyb622/nestJs/nestJs
-            username: ${{ secrets.DOCKER_USERNAME }}
-            password: ${{ secrets.DOCKER_PASSWORD }}
-            tags: "develop1"
+        with:
+          registry: docker.pkg.github.com
+          name: docker.pkg.github.com/andreyb622/nestJs/nestJs
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          tags: "develop1"
